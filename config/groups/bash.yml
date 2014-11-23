@@ -1,0 +1,7 @@
+recipes:
+    global:
+        - applications::bash
+attributes:
+    homebrewalt:
+        apps:
+            - bash-completion

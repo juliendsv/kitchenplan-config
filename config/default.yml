@@ -1,0 +1,17 @@
+recipes:
+    global:
+        - applications::create_var_chef_cache
+    mac_os_x:
+        - homebrewalt::default
+        - osxdefaults::disable_auto-correct
+        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
+        - osxdefaults::finder_small_sidebar_icon_size
+        - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+        - osxdefaults::disable_resume_system-wide
+        - osxdefaults::save_screenshots_in_png_format
+        - osxdefaults::save_screenshots_to_the_desktop
+attributes:        
+    homebrewalt:
+        cask_apps:
+            - google-chrome
+            - java
