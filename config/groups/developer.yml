@@ -1,8 +1,6 @@
 recipes:
     global:
-        - applications::php56
     mac_os_x:
-        - applications::sublime_text_3
         - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
         - osxdefaults::finder_allow_text_selection_in_quick_look
         - osxdefaults::finder_display_full_path
@@ -16,9 +14,7 @@ attributes:
             - git
             - wget
             - htop-osx
-            - rsync
         cask_apps:
-            - phpstorm
             - sequel-pro
     gems:
         - sass

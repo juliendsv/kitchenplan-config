@@ -19,19 +19,6 @@ recipes:
         - osxdefaults::menu_show_clock_with_date
         - osxdefaults::set_computer_name
 attributes:
-    sublime_text_packages:
-        -
-            name: GoSublime
-            source: https://github.com/DisposaBoy/GoSublime.git
-            branch: master
-        -
-            name: BracketHighlighter
-            source: https://github.com/facelessuser/BracketHighlighter.git
-            branch: ST3
-        -
-            name: ApplySyntax
-            source: https://github.com/facelessuser/ApplySyntax.git
-            branch: ST3
     git:
         name: juliendsv
         email: julien.dasilva@gmail.com
